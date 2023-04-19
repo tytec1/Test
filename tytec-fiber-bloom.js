@@ -3,7 +3,7 @@ var minscale = 0.5;
 var md = new MobileDetect(window.navigator.userAgent);
 
 var cable = new Raster({
-    source: '/images/fiber-bloom.png',
+    source: 'https://images.squarespace-cdn.com/content/v1/60d9b91fcc854f60487484da/5d1711d7-f719-4f04-ad72-eb5c79078694/fiber-bloom.png?format=500w',
     position: view.center
 });
 
@@ -18,7 +18,7 @@ for (i = 0; i < steps; i++){
 }
 
 var stroke = new Raster({
-    source: '/images/fiber-bloom-stroke.png',
+    source: 'https://images.squarespace-cdn.com/content/v1/60d9b91fcc854f60487484da/8638a7fc-f306-4cf1-83df-3dcb3e146572/fiber-bloom-stroke.png?format=300w',
     position: view.center
 });
 
