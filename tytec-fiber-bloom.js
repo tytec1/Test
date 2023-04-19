@@ -3,7 +3,7 @@ var minscale = 0.5;
 var md = new MobileDetect(window.navigator.userAgent);
 
 var cable = new Raster({
-    source: 'https://images.squarespace-cdn.com/content/v1/60d9b91fcc854f60487484da/5d1711d7-f719-4f04-ad72-eb5c79078694/fiber-bloom.png?format=500w',
+    source: 'https://static1.squarespace.com/static/60d9b91fcc854f60487484da/t/643ff1775b588679e58b273f/1681912183756/fiber-bloom.png',
     position: view.center
 });
 
@@ -18,7 +18,7 @@ for (i = 0; i < steps; i++){
 }
 
 var stroke = new Raster({
-    source: 'https://images.squarespace-cdn.com/content/v1/60d9b91fcc854f60487484da/8638a7fc-f306-4cf1-83df-3dcb3e146572/fiber-bloom-stroke.png?format=300w',
+    source: 'https://static1.squarespace.com/static/60d9b91fcc854f60487484da/t/643ff195376665684ffe4b3e/1681912213994/fiber-bloom-stroke.png',
     position: view.center
 });
 
@@ -43,7 +43,7 @@ function onFrame(event) {
     if (view.size.width <= view.size.height) {
         layer.scaling = view.size.width / 1500;
     } else {
-    layer.scaling = view.size.height / 1500;
+        layer.scaling = view.size.height / 1500;
     }
 }
 
