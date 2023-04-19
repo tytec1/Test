@@ -1,0 +1,32 @@
+.animation {
+    @include prefix(transform, translateY(-50%));
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: calc(50% + 80px);
+    left: 0;
+    z-index: z-index(animation);
+
+    &__canvas {
+        width: 100%;
+        height: 90vh;
+
+        @include media(width-m, $isPortrait: true) {
+            height: 60vh;
+        }
+
+        @include media(mobile-s) {
+            height: 250px;
+        }
+    }
+
+    @include media(mobile-m) {
+        @include prefix(transform, none);
+        position: static;
+        height: auto;
+    }
+
+    @include media(mobile-s) {
+        margin-top: 40px;
+    }
+}

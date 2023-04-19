@@ -1,0 +1,39 @@
+.icon {
+    font-family: "tytec-icons" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    &--facebook:before {
+        content: "\ea90";
+    }
+    
+    &--instagram:before {
+        content: "\ea92";
+    }
+
+    &--twitter:before {
+        content: "\ea96";
+    }
+
+    &--arrow-down:before {
+        content: "\e900";
+        font-size: 20px;
+    }
+
+    &--arrow-right:before {
+        content: "\e901";
+        font-size: 10px;
+    }
+
+    &--close:before {
+        content: "\e902";
+    }
+
+    &--menu:before {
+        content: "\e903";
+    }
+}
